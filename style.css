@@ -35,8 +35,8 @@ p{
 
 
 .nav-link:hover{
-    /* border-bottom: 3px solid var(--red); */
-    background: var(--red);
+    border-bottom: 3px solid var(--red);
+    /* background: var(--red); */
 }
 .left-side:hover{
 
