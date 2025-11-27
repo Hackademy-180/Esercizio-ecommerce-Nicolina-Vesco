@@ -36,6 +36,9 @@
                             <a class="nav-link fw-bold" aria-current="page" href="#">Nuovi arrivi</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link fw-bold" href="#">Uomo</a>
                         </li>
                         <li class="nav-item">
@@ -55,31 +58,117 @@
             <div class="d-flex align-items-center gap-2">
                 <input class=" form-control" type="search" placeholder="Cerca vans" aria-label="Search" />
                 <div class="d-flex gap-3 me-3 align-items-center ">
-                        <i class="fa-solid fa-magnifying-glass icon-right"></i>
-                        <i class="fa-regular fa-user icon-right "></i>
-                        <i class="fa-regular fa-star icon-right"></i>
-                        <i class="fa-brands fa-opencart icon-right"></i>
+                    <i class="fa-solid fa-magnifying-glass icon-right"></i>
+                    <i class="fa-regular fa-user icon-right "></i>
+                    <i class="fa-regular fa-star icon-right"></i>
+                    <i class="fa-brands fa-opencart icon-right"></i>
                 </div>
             </div>
         </div>
     </nav>
     <header class="container-fluid">
-        <div class="row row-custom">
-            <div class="col-12 col-md 6">
-
+        <div class="row row-custom  text-center">
+            <div class="col-12 col-md 6 mt-5">
+                <h1>BLACK FRIDAY</h1>
+                <p class="text-white fw-bold fs-2">SCONTI FINO AL 50%</p>
+                <p class="text-white fw-bold">Risparmia sui tuoi prodotti preferiti con il Black Friday Vans.*</p>
+                <!-- Button esterno -->
+                <button>
+                    <span class="box">
+                        Uomo
+                    </span>
+                </button>
+                <button>
+                    <span class="box">
+                        Donna
+                    </span>
+                </button>
+                <button>
+                    <span class="box">
+                        Kids
+                    </span>
+                </button>
             </div>
-            <div class="col-12 col-md 6">
-
+            <div class="col-12 d-flex justify-content-evenly align-items-center">
+                <div class="">
+                    <i class="fa-solid fa-cart-shopping fa-2x" style="color: #ffffff;"></i>
+                    <p class="lead text-white fw-bold">Prodotti venduti</p>
+                    <span class="ms-2 lead number text-white" id="primoNumero">0</span> 
+                </div>
+                <div class="">
+                    <i class="fa-regular fa-face-grin-stars fa-2x" style="color: #ffffff;"></i>
+                    <p class="lead text-white fw-bold">Clienti soddisfati</p>
+                    <span class="ms-2 lead number text-white" id="secondoNumero">0</span>
+                </div>
+                <div class="">
+                    <i class="fa-solid fa-briefcase fa-2x" style="color: #ffffff;"></i>
+                    <p class="lead text-white fw-bold">Aziende soddisfati</p>
+                    <span class="ms-2 lead number text-white" id="terzoNumero">0</span>
+                </div>
             </div>
+        </div>
+        <div class="col-12 col-md 6">
 
 
         </div>
 
 
     </header>
+    <main>
+        <section class="container-fluid first-section d-flex justify-content-center flex-column align-items-center  p-0">
+            <h2 class="text-center p-5">PROMOZIONE BLACK FRIDAY</h2>
+            <div class="row container-custom" id="cardWrapper">
+                
+            </div>
+        </section>
+
+        <!-- <section class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4 p-0">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="..." class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">carousel</div>
+                <-- ha aggiunto data-bs-interval per mettere i secondi sulle slide -->
+                <!-- <div class="col-12 col-md-4">carousel</div>
+            </div>
+        </section> -->
+        
 
 
-     <div style="margin-top: 200px;"></div>
+    </main>
+
+
+    <div style="margin-top: 200px;"></div>
 
 
     <script src="https://kit.fontawesome.com/c434305017.js" crossorigin="anonymous"></script>
