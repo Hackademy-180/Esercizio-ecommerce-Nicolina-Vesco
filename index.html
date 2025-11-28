@@ -7,6 +7,8 @@
     <!-- Cdn Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Cdn Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Css personale -->
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
@@ -93,7 +95,7 @@
                 <div class="">
                     <i class="fa-solid fa-cart-shopping fa-2x" style="color: #ffffff;"></i>
                     <p class="lead text-white fw-bold">Prodotti venduti</p>
-                    <span class="ms-2 lead number text-white" id="primoNumero">0</span> 
+                    <span class="ms-2 lead number text-white" id="primoNumero">0</span>
                 </div>
                 <div class="">
                     <i class="fa-regular fa-face-grin-stars fa-2x" style="color: #ffffff;"></i>
@@ -118,60 +120,35 @@
         <section class="container-fluid first-section d-flex justify-content-center flex-column align-items-center  p-0">
             <h2 class="text-center p-5">PROMOZIONE BLACK FRIDAY</h2>
             <div class="row container-custom" id="cardWrapper">
-                
+
+            </div>
+
+        </section>
+
+        <section class="container-fluid second-section">
+            <div class="row" id="carousel-wrapper">
+               
             </div>
         </section>
 
-        <!-- <section class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-4 p-0">
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="..." class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="prev">
-
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide="next">
-
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">carousel</div>
-                <-- ha aggiunto data-bs-interval per mettere i secondi sulle slide -->
-                <!-- <div class="col-12 col-md-4">carousel</div>
-            </div>
-        </section> -->
-        
+        <section class="container-fluid third-section">
+            
+        </section>
 
 
     </main>
 
 
-    <div style="margin-top: 200px;"></div>
+    <!-- <div style="margin-top: 200px;"></div> -->
 
 
     <script src="https://kit.fontawesome.com/c434305017.js" crossorigin="anonymous"></script>
+    <!-- Cdn Aos Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

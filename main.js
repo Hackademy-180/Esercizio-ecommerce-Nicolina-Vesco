@@ -111,6 +111,8 @@ let observer = new IntersectionObserver((entries) => {
 })
 observer.observe(primoNumero)  
 
+// First section
+
 let cardWrapper= document.querySelector("#cardWrapper")
 let productCards = [
     {
@@ -159,6 +161,105 @@ productCards.forEach((product)=>{
     `
     cardWrapper.appendChild(div);
 })
+
+
+// Second section
+
+let carouselWrapper= document.querySelector("#carousel-wrapper")
+let productCarousel= [
+    {
+        image: ["./media/img1carousel.jpg", "./media/img2carousel.jpg"],
+        title: "Si parte",
+        text: "Approfitta di uno scono extra di 10% con il codice EXTRA10",
+        button:  `<button class="cta">
+                   <span class="hover-underline-animation fw-bold"> Acquista ora </span>
+                     <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30"
+                        height="10" viewBox="0 0 46 16">
+                        <path id="Path_10" data-name="Path 10"
+                         d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                        transform="translate(30)"></path>
+                    </svg>
+                  </button>`
+    },
+    {
+        image: ["./media/img3carousel.jpg", "./media/img4carousel.jpg"],
+        title:"",
+        text:"",
+        button: ""
+    },
+    {
+        image: ["./media/img5carousel.jpg", "./media/img6carousel.jpg"],
+        title:"",
+        text:"",
+        button:""
+    },
+]
+
+productCarousel.forEach((element) => {
+    let div=document.createElement("div");
+    div.classList.add ("col-12", "col-md-4", "p-0");
+    div.innerHTML= `
+         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active h-100" data-bs-interval="3000"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                                <img src="${element.image[0]}" class="d-block img-carousel " alt="...">
+                                <div class="carousel-caption d-none d-md-flex flex-column align-items-start">
+                                    <h2 class="fs-1 text-black bg-white">${element.title}</h2>
+                                    <p class="text-start text-black bg-white">${element.text}</p>
+                                    // <!-- Button Open Source -->
+                                    // <!-- From Uiverse.io by alexmaracinaru -->
+                                    ${element.button}
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                                <img src="${element.image[1]}" class="d-block img-carousel" alt="...">
+                                <div class="carousel-caption d-none d-md-flex flex-column align-items-start">
+                                    <h2 class="fs-1 text-black bg-white">${element.title}</h2>
+                                    <p class="text-start text-black bg-white">${element.text}</p>
+                                   ${element.button}
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+    `
+carouselWrapper.appendChild(div);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // let cardWrapper=document.querySelector("#cardWrapper")
 // let productCards =[
