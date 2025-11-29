@@ -8,6 +8,7 @@ let icon = document.querySelectorAll(".icon-right")
 window.addEventListener("scroll", () => {
 
     let scrolled = window.scrollY;
+    console.log(scrolled);
     
     if (scrolled > 0) {
         nav.classList.add("nav-custom2");
@@ -70,16 +71,6 @@ let primoNumero = document.querySelector("#primoNumero")
 let secondoNumero = document.querySelector("#secondoNumero")
 let terzoNumero = document.querySelector("#terzoNumero")
 
-// let counter = 0;
-//     let interval = setInterval(() => {
-//         if (counter < 1000) {
-//             counter++
-//             primoNumero.innerHTML = counter;
-//         } else {
-//             clearInterval(interval);
-
-//         }
-//     }, 1000) 
 function createInterval(number, element, timing) {
     let counter = 0;
     let interval = setInterval(() => {
@@ -233,6 +224,30 @@ productCarousel.forEach((element) => {
     `
 carouselWrapper.appendChild(div);
 })
+
+// Third section
+// 1.dinamicità freccia sulle card
+let buttonPersonal = document.querySelectorAll(".button-personal");
+let allCard= document.querySelectorAll(".card-third-section");
+
+    allCard.forEach((card=>{
+        card.addEventListener("mouseenter",()=>{
+            buttonPersonal.forEach((btn)=>{
+                btn.classList.add("button-personal")
+            })
+        })
+
+    })),
+
+     allCard.forEach((card)=> {
+        card.addEventListener("mouseleave",()=>{
+            buttonPersonal.forEach((btn)=>{
+                btn.classList.remove("button-personal")
+            })
+        })
+    })
+
+
 
 
 

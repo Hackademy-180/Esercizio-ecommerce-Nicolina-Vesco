@@ -272,13 +272,17 @@ button {
 .container-card{
   width: 80vw;
 }
+.card-third-section:hover{
+  border:1px solid black;
+}
 
 .card-img-top{
-  height:400px;
+  height:390px;
   width:100%;
 }
 .img3-card, .img4-card{
   width:90%;
+  /* height:390px; */
 
 }
 
