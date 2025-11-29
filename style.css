@@ -18,13 +18,6 @@ p{
 
 
 
-
-
-
-
-
-
-
 .nav-custom{
     position: fixed;
     top:0;
@@ -151,11 +144,7 @@ button {
     padding: 0px;
 }
 
-/* .slide1{
-    height:600px;
-    width:100%;
 
-} */
 .text-card{
     background: white;
     border:1px solid #d3d3d3;
@@ -265,5 +254,62 @@ button {
 
 /* Third section */
 .third-section{
-    height: 50vh;
+    /* height: 70vh; */
 }
+
+.row-third-section{
+  height: 50vw;
+}
+
+.card-third-section{
+    height:400px;
+    width:100%;
+    border: 1px solid #d3d3d3;
+    background: rgb(179,179,179);
+
+}
+
+.container-card{
+  width: 80vw;
+}
+
+.card-img-top{
+  height:400px;
+  width:100%;
+}
+.img3-card, .img4-card{
+  width:90%;
+
+}
+
+
+/* From Uiverse.io by JassiSingh08 */ 
+.button-personal {
+  font-size: 30px;
+  background-color: white;
+  color: black;
+  width: 50px;
+  height: 50px;
+  opacity: 0.75;
+  border: 1px solid black;
+  cursor: pointer;
+
+}
+
+/* .button-personal:hover {
+  animation: bounce_513 1s infinite;
+}
+
+@keyframes bounce_513 {
+  0%,
+    100% {
+    transform: translateX(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+} */
+
