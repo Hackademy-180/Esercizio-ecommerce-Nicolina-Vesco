@@ -145,6 +145,7 @@ button {
 }
 
 
+
 .text-card{
     background: white;
     border:1px solid #d3d3d3;
@@ -179,11 +180,7 @@ button {
     
 }
 
-.carousel-inner {
-    height: 100%;
-}
-
-.carousel-item {
+.carousel-inner, .carousel-item {
     height: 100%;
 }
 
@@ -298,7 +295,10 @@ button {
 
 /* Fine della pagina */
 .footer-custom{
-  height: 70vh;
+  height: 55vh;
   background: var(--grey);
 }
 
+.footer-list, .list-button{
+  list-style-type: none;
+}

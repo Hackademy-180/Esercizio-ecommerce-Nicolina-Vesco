@@ -192,7 +192,7 @@ productCarousel.forEach((element) => {
     div.innerHTML= `
          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active h-100" data-bs-interval="3000">
+                            <div class="carousel-item active h-100" data-bs-interval="3000" >
                                 <img src="${element.image[0]}" class="d-block img-carousel " alt="...">
                                 <div class="carousel-caption d-none d-md-flex flex-column align-items-start">
                                     <h2 class="fs-1 text-black bg-white">${element.title}</h2>
