@@ -221,12 +221,74 @@ productCarousel.forEach((element) => {
                         </button>
                     </div>
                 </div>
-    `
+    ` 
 carouselWrapper.appendChild(div);
 })
 
 // Third section
-// 1.dinamicità freccia sulle card
+    //1. Creazione card 
+
+    let cardSection3 = document.querySelector("#card-3-section");
+    let productSection3 = [
+        {
+            button: `
+            <!-- From Uiverse.io by JassiSingh08 -->
+                            <button class="button-personal">
+                                ←
+                            </button>
+            `,
+            image:["./media/shoescard1.png"],
+            text: "68€",
+            title: "Scarpe Old Skool",
+            class: "flex-row"
+            
+        },
+        {
+          button: "",
+          image:["./media/shoescard2.png"],
+          text: "50 €",
+            title: "Scarpe Hylane"   
+        },
+        {
+          button: "",
+          image:["./media/shoescard3.png"],
+          text:"68 €",
+            title: "Scarpe classic Slip-On" 
+        },
+        {
+            button: `
+             <!-- From Uiverse.io by JassiSingh08 -->
+                            <button class="button-personal">
+                                →
+                            </button>
+            `,
+            image:["./media/shoescard4.png"],
+            text:"30 €",
+            title: "Scarpe Sk8-Hi",
+            class:"flex-row-reverse"
+        },
+    ]
+
+    productSection3.forEach((el)=>{
+        let div = document.createElement("div");
+        div.classList.add ("col-12", "col-md-2", "p-0", "gap-1", "d-flex", "container-card", "mt-3");
+        div.innerHTML = `
+                 <div class="card card-third-section ">
+                        <div class="img-wrapper d-flex align-items-center ${el.class}">
+                            <!-- From Uiverse.io by JassiSingh08 -->
+                            ${el.button}
+                            <img src="${el.image}" class="card-img-top img4-card" alt="...">
+                        </div>           
+                        <div class="card-body">
+                            <p class="card-text fw-bold">${el.text}</p>
+                            <p class="card-title">${el.title}</p>
+                        </div>
+                    </div>
+        `
+    cardSection3.appendChild(div);
+    })
+
+    // 2.dinamicità freccia sulle card
 let buttonPersonal = document.querySelectorAll(".button-personal");
 let allCard= document.querySelectorAll(".card-third-section");
 

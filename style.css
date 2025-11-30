@@ -253,9 +253,6 @@ button {
 
 
 /* Third section */
-.third-section{
-    /* height: 70vh; */
-}
 
 .row-third-section{
   height: 50vw;
@@ -270,7 +267,7 @@ button {
 }
 
 .container-card{
-  width: 80vw;
+  width: 20vw;
 }
 .card-third-section:hover{
   border:1px solid black;
@@ -282,7 +279,6 @@ button {
 }
 .img3-card, .img4-card{
   width:90%;
-  /* height:390px; */
 
 }
 
@@ -300,20 +296,9 @@ button {
 
 }
 
-/* .button-personal:hover {
-  animation: bounce_513 1s infinite;
+/* Fine della pagina */
+.footer-custom{
+  height: 70vh;
+  background: var(--grey);
 }
-
-@keyframes bounce_513 {
-  0%,
-    100% {
-    transform: translateX(-25%);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-  }
-
-  50% {
-    transform: translateX(0);
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  }
-} */
 
