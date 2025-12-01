@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Cdn Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Cdn Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Css personale -->
+    <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Vans On The Wall</title>
+
+</head>
+
+<body>
+    <!-- La barra di navigazione -->
+    <nav class="navbar navbar-expand-lg nav-custom " id="nav">
+        <div class="container-fluid d-flex justify-content-between">
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse left-side" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" aria-current="page" href="#">Nuovi arrivi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Uomo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Donna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">Bambino</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="">
+                <a class="navbar-brand" href="#">
+                    <img src="./media/logo.png" alt="" srcset="" class="logo">
+                </a>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+                <input class=" form-control" type="search" placeholder="Cerca vans" aria-label="Search" />
+                <div class="d-flex gap-3 me-3 align-items-center ">
+                    <i class="fa-solid fa-magnifying-glass icon-right"></i>
+                    <i class="fa-regular fa-user icon-right "></i>
+                    <i class="fa-regular fa-star icon-right"></i>
+                    <i class="fa-brands fa-opencart icon-right"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container-fluid my-5 py-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="fs-1">I nostri Annunci</h1>
+            </div>
+        </div>
+    </header>
+
+     <section class="container-fluid">
+        <div class="row flex-column justify-content-start">
+            <div class="col-12">
+                <h5>Nuovi arrivi</h5>
+                <button id="showBtn" class="btn btn-custom p-0 m-0"> Mostra filtri</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row mt-5" id="accordionWrapper">
+            <h3>Ordina per:</h3>
+            <div class="col-12 col-md-2">
+                <div class="accordion mb-4" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Seleziona categorie
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" id="categoryWrapper">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="category" id="all" checked>
+                                    <label class="form-check-label" for="all">
+                                        <!-- Alla fine ha cambiato il nome dell'id e for in all ma solo qui su html -->
+                                        Tutti i prodotti
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Prezzo
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                    <label class="form-check-label" for="radioDefault1">
+                                        Default radio
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2"
+                                        checked>
+                                    <label class="form-check-label" for="radioDefault2">
+                                        Default checked radio
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Parola
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                    <label class="form-check-label" for="radioDefault1">
+                                        Default radio
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2"
+                                        checked>
+                                    <label class="form-check-label" for="radioDefault2">
+                                        Default checked radio
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-10">
+                <div class="container-fluid">
+                    <div id="cardsJson" class="row">
+                        <!-- <div class="col-md-4">
+                            <div class="card">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of
+                                        the card’s content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer-custom">
+        <div class="row justify-content-center p-0">
+            <div class="col-12 col-md-2 mt-5">
+                <label class="fw-bold mb-2 mx-4">PRODOTTI</label>
+                <ul class="footer-list">
+                    <li>Scarpe</li>
+                    <li>Abbigliamento</li>
+                    <li>Accessori</li>
+                    <li>Nuovi arrivi</li>
+                    <li>Calendario Lanci</li>
+                    <li>Outlet</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-2 mt-5">
+
+                <label class="fw-bold mb-2 mx-4">SPORT</label>
+                <ul class="footer-list">
+                    <li>Calcio</li>
+                    <li>Basket</li>
+                    <li>Golf</li>
+                    <li>Allenamento e palestra</li>
+                    <li>Outdoor</li>
+                    <li>Rugby</li>
+                    <li>Running</li>
+                    <li>Tennis</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-2 mt-5">
+
+                <label class="fw-bold mb-2 mx-4">COLLEZIONI</label>
+                <ul class="footer-list">
+                    <li>Originals</li>
+                    <li>Spezial</li>
+                    <li>SL72</li>
+                    <li>Campus</li>
+                    <li>Adizero</li>
+                    <li>Samba</li>
+                    <li>Gazelle</li>
+                    <li>adicolor</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-2 mt-5">
+
+                <label class="fw-bold mb-2 mx-4">ASSISTENZA</label>
+                <ul class="footer-list">
+                    <li>Aiuto</li>
+                    <li>Resi e rimborsi</li>
+                    <li>Consegna</li>
+                    <li>Tabelle taglie</li>
+                    <li>Trova negozio</li>
+                    <li>Mappa del sito</li>
+                    <li>Sconto studenti</li>
+                    <li>Procedure europee di risoluzione delle controversie</li>
+                    <li>Imprint</li>
+                </ul>
+            </div>
+
+
+            <div class="social-icon col-12 col-md-2 d-flex flex-column align-items-center gap-3 mt-5">
+                <label class="fw-bold">SEGUICI</label>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+
+            <div class="copyright col-12 col-md-12 d-flex justify-content-center align-items-center mt-5">
+                <p>I buoni sconto possono essere utilizzati su un'ampia gamma di articoli vans. Si applicano limitazioni
+                    e restrizioni di vendita. Visita https://www.vansonthewall.it | vansonthewall.it per scoprire gli
+                    articoli idonei.</p>
+            </div>
+
+            <div class="col-12 col-md-12 d-flex justify-content-center">
+                <ul class="d-flex list-button gap-3">
+                    <li>
+                        <button type="button">Impostazioni cookie</button>
+                    </li>
+                    <li>
+                        <button type="button">Gestisci Dati</button>
+                    </li>
+                    <li>
+                        <button type="button">Cookies</button>
+                    </li>
+                    <li>
+                        <button type="button">Informativa sulla privacy</button>
+                    </li>
+                    <li>
+                        <button type="button">Termini e Condizioni</button>
+                    </li>
+                    <li>
+                        <button type="button">*Black Friday termini</button>
+                    </li>
+                    <li>
+                        <button type="button">Accesibilità</button>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/c434305017.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Javascript personale -->
+    <script src="./annunci.js"></script>
+
+</body>
+
+</html>

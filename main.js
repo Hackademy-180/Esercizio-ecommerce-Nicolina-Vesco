@@ -144,8 +144,8 @@ productCards.forEach((product)=>{
     let div = document.createElement("div");
     div.classList.add ("col-12","col-md-2", "p-0");
     div.innerHTML=`
-            <div class="card">
-            <img src="${product.image}" class="card-img-top" alt="...">
+            <div class="card cardsection1">
+            <img src="${product.image}" class="card-img-top card1section" alt="...">
             <a href="${product.link}" class="text-card">${product.text}</a>
             </div>
 
@@ -277,7 +277,7 @@ carouselWrapper.appendChild(div);
                         <div class="img-wrapper d-flex align-items-center ${el.class}">
                             <!-- From Uiverse.io by JassiSingh08 -->
                             ${el.button}
-                            <img src="${el.image}" class="card-img-top img4-card" alt="...">
+                            <img src="${el.image}" class="card-img-top card1section img4-card" alt="...">
                         </div>           
                         <div class="card-body">
                             <p class="card-text fw-bold">${el.text}</p>
@@ -310,7 +310,7 @@ let allCard= document.querySelectorAll(".card-third-section");
     })
 
 
-
+// 
 
 
 
