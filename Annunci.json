@@ -60,64 +60,64 @@
         "name": "Adicolor 3",
         "category": "Felpe",
         "price": "75",
-        "image": "https://picsum.photos/300"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997016/VN000P8A02F-HERO/2Tone-Crew-Pullover-Hoodie.jpg"
     },
     {
         "id": 10,
-        "name": "Adidas Full-zip ",
+        "name": "Hero Full-zip ",
         "category": "Felpe",
         "price": "100",
-        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b86bdb8cc7c2478989b830cb93c05c59_9366/Track_top_Z.N.E._Woven_Full-Zip_Hooded_Verde_IS9279_21_model.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278328/VN000PX2EMP-HERO/Kids-Rippled-Zip-Hoodie.jpg"
     },
     {
         "id": 11,
         "name": "Adilenium Oversized",
         "category": "Felpe",
         "price": "88",
-        "image": "https://picsum.photos/301"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997183/VN000Q39EN9-HERO/After-Dark-Retro-Pullover-Hoodie.jpg"
     },
     {
         "id": 12,
         "name": "Stella con cappuccio",
         "category": "Felpe",
         "price": "119",
-        "image": "https://picsum.photos/302"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278461/VN000XR62N1-HERO/V2K-OS-Pullover-Hoodie.jpg"
     },
    
     {
         "id": 13,
-        "name": "Adidas AOP",
+        "name": "Evolve Pullover",
         "category": "Felpe",
         "price": "69.90",
-        "image": "https://picsum.photos/303"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278401/VN000RG2BLK-HERO/Evolve-Pullover-Hoodie.jpg"
     },
     {
         "id": 14,
         "name": "Own The Run 3",
         "category": "Felpe",
         "price": "86",
-        "image": "https://picsum.photos/304"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278452/VN000WBPBLK-HERO/Tour-Os-Zip-Pullover-Hoodie.jpg"
     },
     {
         "id": 15,
         "name": "T-shirt classic",
         "category": "Maglie",
         "price": "12.99",
-        "image": "https://picsum.photos/305"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761149052/VN000TR3EMQ-ALT2/Act-Of-Disagreement-Oval-Logo-TShirt.jpg"
     },
     {
         "id": 16,
         "name": "T-shirt Trefoil Essentials",
         "category": "Maglie",
         "price": "28",
-        "image": "https://picsum.photos/306"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761149106/VN000TR2EMQ-ALT1/Act-Of-Disagreement-Brushed-Logo-TShirt.jpg"
     },
     {
         "id": 17,
         "name": "T-shirt Monogram Graphic",
         "category": "Maglie",
         "price": "34.50",
-        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3415e456da4641cc8b322beb7d00ebaf_9366/T-shirt_Nora_Graphic_Short_Sleeve_Neutral_Nero_IU0085_21_model.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820787/VN000U11WHT-ALT3/Vans-2Pack-TShirt.jpg"
 
     },
     {
@@ -125,14 +125,14 @@
         "name": "Trainig HIIT WORKOUT",
         "category": "Maglie",
         "price": "50",
-        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/74b711b0c77a47b3b2bb851b2ffc5f02_9366/T-shirt_Designed_for_Training_HIIT_Workout_HEAT.RDY_Marrone_IS3743_HM1.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820367/VN000P1P12Q-ALT4/Left-Chest-Loose-Fit-Short-Sleeve-TShirt.jpg"
     },
     {
         "id": 19,
         "name": "T-shirt ZNE",
         "category": "Maglie",
         "price": "40",
-        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b45c01de27b34a079a5dfff3f93084b0_9366/T-shirt_Z.N.E._Blu_IR5234_21_model.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267733/VN000PDREMS-ALT2/Star-Checker-TShirt.jpg"
     },
 
     {
@@ -140,35 +140,35 @@
         "name": "Firebird classic",
         "category": "Pantaloni",
         "price": "60",
-        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fccb6db9e7fc4fb48d3cced1bef2e1aa_9366/Track_pants_adicolor_Classics_Firebird_Arancione_IR9894_21_model.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278356/VN000Q07BLK-HERO/Kids-Scribbled-Past-Fleece-Pants.jpg"
     },
     {
         "id": 21,
         "name": "Franch Terry",
         "category": "Pantaloni",
         "price": "50.40",
-        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6fc98b534bdf4b18bdca228db24ae913_9366/Pantaloni_Essentials_French_Terry_Tapered_Cuff_3-Stripes_Verde_IS1392_21_model.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820480/VN000PJ01OD-ALT2/Premium-Double-Knee-Carpenter-Trousers.jpg"
     },
     {
         "id": 22,
         "name": "Techfit Training ",
         "category": "Pantaloni",
         "price": "32",
-        "image": "https://picsum.photos/306"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1764254612/VN0010DBBLK-HERO/OTW-x-Motherlan-Sweatpants.jpg"
     },
     {
         "id": 23,
         "name": "Ultimate 365",
         "category": "Pantaloni",
         "price": "365",
-        "image" : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f7755ea7f1674c84bfddaeb1f4dd5aa2_9366/Pantaloni_da_allenamento_adidas_by_Stella_McCartney_Woven_Bianco_IT7529_21_model.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756143257/VN000PMDEMW-ALT3/HiCountry-Snow-Trousers.jpg"
     },
     {
         "id": 24,
         "name": "Regular Fleece",
         "category": "Pantaloni",
         "price": "22",
-        "image" : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4c0ec8b64a1240489753af1d011bcdbf_9366/Pantaloni_Essentials_Linear_French_Terry_Cuffed_Grigio_IC8816_21_model.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756143041/VN0008N6EMU-ALT4/Service-Cargo-Loose-Tapered-Trousers.jpg"
 
     },
     {
@@ -176,77 +176,77 @@
         "name": "Tiro 24",
         "category": "Pantaloni",
         "price": "45",
-        "image" : "https://picsum.photos/307"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267771/VN000PH6IYR-ALT2/Check5-Denim-Trousers.jpg"
     },
     {
         "id": 26,
         "name": "Giacca training EXPERIOR",
         "category": "Giacche",
         "price": "100",
-        "image" : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c6183241116d438d8e03d73a0dcba2c6_9366/Giacca_Terrex_Xperior_Light_Windweave_Arancione_IN2908_21_model.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761149099/VN000RPNH9H-ALT6/Act-Of-Disagreement-Abrasion-Coach-Jacket.jpg"
     },
     {
         "id": 27,
         "name": "GameDay Full-Zip",
         "category": "Giacche",
         "price": "80",
-        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7e7330eb141344239503af10018abb1c_faec/Giacca_da_running_Reflect_At_Night_X-City_Bianco_HM4267_HM1.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820369/VN000P7AEN6-ALT2/Mcavoy-Lined-Station-Jacket.jpg"
     },
     {
         "id": 28,
         "name": "Insulated Hybrid",
         "category": "Giacche",
         "price": "135",
-        "image" : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3b6292b324a540558a1d7a42e82e67b7_9366/Giacca_Own_The_Run_3-Stripes_Bianco_IQ3845_HM1.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1760692163/VN000NDN4QU-HERO/Wren-Colourblock-FullZip-Jacket.jpg"
     },
     {
         "id": 29,
         "name": "Myshelter rain",
         "category": "Giacche",
         "price": "250",
-        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7131a24085764de59866af5f00ad912d_9366/GIACCA_IMPERMEABILE_TERREX_XPERIOR_GORE-TEX_PACLITE_Blu_HU1115_21_model.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1760692163/VN000NDNDJR-HERO/Wren-Colourblock-Pile-Fleece-Jacket.jpg"
     },
    
     {
         "id": 30,
         "name": "Adidas SST suit ",
-        "category": "Tute",
+        "category": "Maglie girocollo",
         "price": "55",
-        "image": "https://picsum.photos/308"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997017/VN000P8CJDU-HERO/2Tone-Crew-Sweater.jpg"
     },
     {
         "id": 31,
         "name": "Of Sport",
-        "category": "Tute",
+        "category": "Maglie girocollo",
         "price": "38",
-        "image": "https://picsum.photos/309"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1758031666/VN000RG0EMS-HERO/Mirror-V-Loose-Sweater.jpg"
     },
     {
         "id": 32,
         "name": "Entrada 22",
-        "category": "Tute",
+        "category": "Maglie girocollo",
         "price": "35",
-        "image" : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1b975a86c0ad418193d1ca132bc3aa9b_9366/Pantaloni_adidas_Basketball_Fleece_Bianco_IW1630_21_model.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820443/VN000PA6BRD-ALT2/Scripted-Vans-Crew-Sweatshirt.jpg"
     },
     {
         "id": 33,
-        "name": "Giacca Woman Real Madrid",
-        "category": "Tute",
+        "name": "Woman Real Madrid",
+        "category": "Maglie girocollo",
         "price": "96",
-        "image" : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c137173b1bcb475dade8f1fffb879ad6_9366/Giacca_Anthem_Real_Madrid_Bianco_HY0634_HM1.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267847/VN000Q33EMF-ALT2/Got-Your-Back-Crew-Sweatshirt.jpg"
     },
     {
         "id": 34,
-        "name": "Giacca Woman Juventus",
-        "category": "Tute",
+        "name": "Woman Juventus",
+        "category": "Maglie girocollo",
         "price": "96",
-        "image" : "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ca2f580977e248a48c92bb0d56f0d9ad_9366/Giacca_da_rappresentanza_Tiro_23_Juventus_Bianco_HZ5023_21_model.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756143402/VN000XC1BLK-ALT2/Leopard-Oval-Crew-Sweatshirt.jpg"
     },
     {
         "id": 35,
         "name": "Premium City Escape",
-        "category": "Tute",
+        "category": "Maglie girocollo",
         "price": "111",
-        "image" :"https://picsum.photos/310"
+        "image" :"https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267844/VN000Q3002F-ALT2/Upworn-Retro-Crew-Sweatshirt.jpg"
     }
 ]

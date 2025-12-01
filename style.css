@@ -312,9 +312,8 @@ button {
 .row-shop{
   
 }
-.card-shop{
-  width: 250px;
-  /* height:10px; */
+.card-shop:hover{
+  border: 1px solid black;
 }
 .img-filter{
   width: 4%;
