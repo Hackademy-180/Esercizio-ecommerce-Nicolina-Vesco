@@ -17,11 +17,11 @@ window.addEventListener("scroll",() => {
         navLink.forEach((link)=> {
             link.style.color = "rgb(254,254,254)"
             link.addEventListener("mouseenter", ()=> {
-                link.style.color = "rgb(254,254,254)"
+                link.style.color = "rgb(10,10,10)"
 
             })
             link.addEventListener("mouseleave",()=> {
-                link.style.color = "rgb(10,10,10)"
+                link.style.color = "rgb(254,254,254)"
             })
         })
         icon.forEach((icona)=>{
@@ -78,7 +78,11 @@ let filterBtn = document.querySelector("#filterBtn")
 
 });
     
-
+let categoryWrapper= document.querySelector("#categoryWrapper")
+let cardsJson= document.querySelector("#cardsJson")
+let priceInput=document.querySelector("#priceInput")
+let priceNumber=document.querySelector("#priceNumber")
+let wordInput =document.querySelector("#wordInput")
 
 
 
@@ -108,17 +112,17 @@ fetch("./annunci.json").then((response) => response.json()).then((data) => {
 
     
     function showCards(array) {
-        array.sort((a,b)=> a.price - b.price);
+        array.sort((a,b)=> b.price - a.price);
         cardsJson.innerHTML=""
         array.forEach((annuncio)=> {
             let div= document.createElement("div");
-            div.classList.add("col-md-4")
+            div.classList.add("col-6","col-md-4")
             div.innerHTML =`
             <div class="card my-2 mb-5 card-shop">
             <img src=${annuncio.image} class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">${annuncio.name}</h5>
-            <p class="card-text">${annuncio.price}</p>
+            <p class="card-text">${annuncio.price} €</p>
             <a href="#" class="btn btn-secondary">Acquista<i class="bi bi-cart-plus"></i></a>
             </div>
             </div>
@@ -142,8 +146,7 @@ fetch("./annunci.json").then((response) => response.json()).then((data) => {
         
     }
     filterByCategory()
-    
-    // fuori dalla funzione la radios torna node list
+
     radios.forEach((button)=> {
         button.addEventListener("click", ()=>{
             filterByCategory();
@@ -151,8 +154,44 @@ fetch("./annunci.json").then((response) => response.json()).then((data) => {
     })
 
     
+
+    function setPriceInput() {
+        let maxPrice = data[0].price;
+        priceInput.max = maxPrice
+        priceInput.value = maxPrice;
+        priceNumber.innerHTML = maxPrice;
+        let dataReverse=data.reverse();
+        let minPrice =dataReverse[0].price
+        priceInput.min = Math.ceil(+minPrice);
+
+        
+    }
+    setPriceInput()
+
+    priceInput.addEventListener("input", ()=>{
+        priceNumber.innerHTML = priceInput.value;
+        filterByPrice()  
+    })
+
+    function filterByPrice() {
+        let filtered=data.filter((annuncio)=> +annuncio.price <= +priceInput.value)
+        showCards(filtered)
+    }
+
+
+   wordInput.addEventListener ("input", ()=> {
+        filterByWord()
+
+   })
+
+  function filterByWord() {
     
-}) 
+    let filtered = data.filter((annuncio)=>
+        annuncio.name.toLowerCase().includes(wordInput.value.toLowerCase()))
+    
+    showCards(filtered)
+   }
+})
 
 
 
