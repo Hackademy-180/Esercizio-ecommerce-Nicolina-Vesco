@@ -1,6 +1,4 @@
-
-// let showBtn = document.querySelector("#showBtn")
-// let accordionWrapper = document.querySelector("#accordionWrapper")
+ 
 let nav = document.querySelector("#nav")
 let navLink= document.querySelectorAll(".nav-link")
 let imgLogo = document.querySelector(".logo")
@@ -71,9 +69,12 @@ let filterBtn = document.querySelector("#filterBtn")
     if(confirm){
         cardShop.classList.remove("col-md-12")
         cardShop.classList.add("col-md-10")
+        filterBtn.innerHTML= `Nascondi filtri <i class="bi bi-filter"></i>`
+
     }else{
         cardShop.classList.remove("col-md-10")
         cardShop.classList.add("col-md-12")
+         filterBtn.innerHTML= `Mostra filtri <i class="bi bi-filter"></i>`
         }
 
 });

@@ -319,8 +319,32 @@ button {
   width: 4%;
 }
 
+/* Pagina reparto donna */
+.row-header{
+  height: 85vh;
+  background: url("./media/repartodonna.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
+.titleWomanSection{
+  width: 13%;
+  height: 50px;
+}
+.titleWomanSection1{
+  width:20%;
+}
 
+/* First section */
 
+.btn-woman-section{
+  border: 1px solid #d3d3d3;
+  width:200px;
+  height:40px
+}
+.card-body{
+  border-radius: 0;
+}
 
 
