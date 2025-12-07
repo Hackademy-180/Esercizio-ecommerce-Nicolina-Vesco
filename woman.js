@@ -52,3 +52,71 @@ window.addEventListener("scroll", ()=>{
 
 })
 
+let collapseCategorie=document.querySelector("#collapseCategorie");
+let collapsePrezzo=document.querySelector("#collapsePrezzo");
+let collapseParola=document.querySelector("#collapseParola");
+let collapseTaglie=document.querySelector("#collapseTaglie");
+let showCard=document.querySelector("#showCard");
+
+
+fetch("./woman.json").then((response) => response.json()).then((info)=>{
+    function setCategoryFilter(){
+        let categories= info.map((filtro)=> filtro.category)
+        let uniqueCategory=[];
+        categories.forEach((categoria)=> {
+            if(!uniqueCategory.includes(categoria)){
+                uniqueCategory.push(categoria);
+            }
+        })
+        let cardBody = collapseCategorie.querySelector(".card-body");
+        uniqueCategory.forEach((categoria)=>{
+            let div = document.createElement("div");
+            div.classList.add("form-check");
+            div.innerHTML=`<input class="form-check-input" type="radio" name="category" id="${categoria}"> 
+                                    <label class="form-check-label" for="${categoria}">
+                                        ${categoria}
+                                    </label>`
+            cardBody.appendChild(div);
+        })
+    }
+    setCategoryFilter();
+
+    function showCards(array){
+        array.sort((a,b)=> b.price-a.price);
+        showCard.innerHTML="";
+        array.forEach((filtro)=> {
+            let div=document.createElement("div");
+            div.classList.add("col-12", "col-md-3");
+            div.innerHTML=`<div class="card my-2 mb-5 mt-4 card-woman">
+                                <img src=${filtro.image} class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">${filtro.name}</h5>
+                                    <p class="card-text">${filtro.price}</p>
+                                    <a href="#" class="btn btn-primary">Acquista</a>
+                                </div>
+                            </div>`
+             showCard.appendChild(div);
+        })
+
+    }
+    // showCards(info);
+
+    let radios=document.querySelectorAll(".form-check-input");
+    function filterByCategory(){
+        let checked=Array.from(radios).find((button)=>button.checked);
+        let categoria=checked.id;
+        if(categoria != "all"){
+            let filtered=info.filter((filtro)=>filtro.category == categoria);
+            showCards(filtered);
+        }else{
+            showCards(info);
+        }
+    }
+    filterByCategory();
+
+     radios.forEach((button)=> {
+        button.addEventListener("click", ()=>{
+            filterByCategory();
+        })
+    })
+})
