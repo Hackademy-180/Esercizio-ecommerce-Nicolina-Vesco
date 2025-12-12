@@ -341,27 +341,22 @@ button {
 .btn-woman-section{
   border: 1px solid #d3d3d3;
   width:200px;
-  height:40px
+  height:40px;
 }
+
 .card-body{
   border-radius: 0;
 }
 
-/* .card-woman{
-  width:95%;
-} */
-
-/* #collapseCategorie {
+#collapseCategorie, #collapsePrezzo, #collapseParola, #collapseTaglie {
     position: absolute;
-    z-index: 1000;
-    width: 250px; */
-    /* top: 100%; Si posiziona sotto il bottone */
-    /* left:0; */
-/* } */
+    z-index: 999;
+    width: 200px;
+    top: 100%;
 
-/* Aggiungi un'ombra per farlo risaltare */
-/* #collapseCategorie .card {
+  }
+
+#collapseCategorie .card, #collapsePrezzo .card, #collapseParola .card, #collapseTaglie {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}  */
-
+} 
 

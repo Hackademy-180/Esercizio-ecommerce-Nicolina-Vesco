@@ -53,8 +53,8 @@ window.addEventListener("scroll", ()=>{
 })
 
 let collapseCategorie=document.querySelector("#collapseCategorie");
-let collapsePrezzo=document.querySelector("#collapsePrezzo");
-let collapseParola=document.querySelector("#collapseParola");
+let priceInput=document.querySelector("#priceInput");
+let wordInput=document.querySelector("#wordInput");
 let collapseTaglie=document.querySelector("#collapseTaglie");
 let showCard=document.querySelector("#showCard");
 
@@ -119,4 +119,38 @@ fetch("./woman.json").then((response) => response.json()).then((info)=>{
             filterByCategory();
         })
     })
+
+    function setPriceInput(){
+        let maxPrice=info[0].price;
+        priceInput.max=maxPrice;
+        priceInput.value=maxPrice;
+        priceNumber.innerHTML=maxPrice;
+        let infoReverse=info.reverse();
+        let minPrice=infoReverse[0].price;
+        priceInput.min=Math.ceil(+minPrice);
+        minNumber.innerHTML=minPrice;
+    }
+    setPriceInput();
+
+    priceInput.addEventListener("input", ()=> {
+        priceNumber.innerHTML=priceInput.value;
+        minNumber.innerHTML=priceInput.value;
+
+        filterByPrice();
+    })
+
+    function filterByPrice(){
+        let filtered= info.filter((annuncio)=> +annuncio.price <= +priceInput.value);
+        showCards(filtered);
+    }
+
+    wordInput.addEventListener("input", ()=>{
+        filterByWord();
+    })
+
+    function filterByWord(){
+        let filtered=info.filter((annuncio)=>
+        annuncio.name.toLowerCase().includes(wordInput.value.toLowerCase()))
+        showCards(filtered);
+    }
 })
