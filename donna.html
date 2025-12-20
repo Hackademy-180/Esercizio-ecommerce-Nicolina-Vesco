@@ -19,8 +19,8 @@
         rel="stylesheet">
     <!-- Css personale -->
     <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./media/logo.png" type="image/x-icon">
-    <title>Vans On The Wall</title>
+    <link rel="shortcut icon" href="./media/logoalternativo.png" type="image/x-icon">
+    <title>Flare - Rise From The Street</title>
 
 </head>
 
@@ -56,11 +56,11 @@
             </div>
             <div class="">
                 <a class="navbar-brand" href="#">
-                    <img src="./media/logo.png" alt="" srcset="" class="logo">
+                    <img src="./media/logoalternativo.png" alt="" srcset="" class="logo">
                 </a>
             </div>
             <div class="d-flex align-items-center gap-2">
-                <input class=" form-control" type="search" placeholder="Cerca vans" aria-label="Search" />
+                <input class=" form-control" type="search" placeholder="Cerca Flare" aria-label="Search" />
                 <div class="d-flex gap-3 me-3 align-items-center ">
                     <i class="fa-solid fa-magnifying-glass icon-right"></i>
                     <i class="fa-regular fa-user icon-right "></i>
@@ -76,6 +76,7 @@
             <div class="col-12 my-5 py-5 d-flex flex-column justify-content-end">
                 <h2 class="text-black d-flex align-items-center bg-white titleWomanSection">BEST OF US</h2>
                 <p class="text-start text-black bg-white titleWomanSection1">Regala stili iconici per ogni occasione</p>
+                <!-- Button esterno -->
                 <button class="cta text-start">
                     <span class="hover-underline-animation fw-bold"> Acquista ora </span>
                     <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10"
@@ -138,8 +139,8 @@
                         </button>
                         <div class="collapse" id="collapseParola">
                             <div class="card card-body ms-4">
-                                <div class="form-check">
-                                    <input id="wordInput" type="text" class="form-control">
+                                <div class="form-check p-0">
+                                    <input id="wordInput" type="text" class="form-control p-0">
 
                                 </div>
                             </div>
@@ -153,12 +154,29 @@
                             <i class="bi bi-filter"></i>
                         </button>
                         <div class="collapse" id="collapseTaglie">
-                            <div class="card card-body ms-3">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="category" id="all" checked>
-                                    <label class="form-check-label" for="all">
-                                        Tutti i prodotti
-                                    </label>
+                            <div class="card card-size ms-3">
+                                <div class="col-md">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="floatingSelectGrid">
+                                            <option selected>Vestiti</option>
+                                            <option value="X">X</option>
+                                            <option value="M">M</option>
+                                            <option value="L">L</option>
+                                            <option value="XL">XL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                 <div class="col-md">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="floatingSelectGrid">
+                                            <option selected>Scarpe</option>
+                                            <option value="36">36</option>
+                                            <option value="37">37</option>
+                                            <option value="38">38</option>
+                                            <option value="39">39</option>
+                                            <option value="40">40</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -167,9 +185,9 @@
             </div>
         </section>
         <section class="container-fluid">
-                
-                <div id="showCard" class="row p-3">
-                </div>
+
+            <div id="showCard" class="row p-3">
+            </div>
             </div>
         </section>
 
@@ -179,7 +197,7 @@
             <div class="row row-third-section justify-content-center m-0" id="card-3-section">
 
                 <div class="col-12 col-md-6 btn-custom d-flex align-items-end gap-2">
-                    <button type="button" class="btn bg-dark text-white">Per gli iscritti vansClub</button>
+                    <button type="button" class="btn bg-dark text-white">Per gli iscritti flareClub</button>
                     <button type="button" class="btn border">Nuovi arrivi</button>
                     <button type="button" class="btn border">Offerte</button>
                 </div>
@@ -266,8 +284,9 @@
             </div>
 
             <div class="copyright col-12 col-md-12 d-flex justify-content-center align-items-center mt-5">
-                <p>I buoni sconto possono essere utilizzati su un'ampia gamma di articoli vans. Si applicano limitazioni
-                    e restrizioni di vendita. Visita https://www.vansonthewall.it | vansonthewall.it per scoprire gli
+                <p>I buoni sconto possono essere utilizzati su un'ampia gamma di articoli flare. Si applicano
+                    limitazioni
+                    e restrizioni di vendita. Visita https://www.flare.it | flare.it per scoprire gli
                     articoli idonei.</p>
             </div>
 

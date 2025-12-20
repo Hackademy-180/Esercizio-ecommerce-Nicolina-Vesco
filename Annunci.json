@@ -58,6 +58,7 @@
     {
         "id": 9,
         "name": "Adicolor 3",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "75",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997016/VN000P8A02F-HERO/2Tone-Crew-Pullover-Hoodie.jpg"
@@ -65,6 +66,7 @@
     {
         "id": 10,
         "name": "Hero Full-zip ",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "100",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278328/VN000PX2EMP-HERO/Kids-Rippled-Zip-Hoodie.jpg"
@@ -72,6 +74,7 @@
     {
         "id": 11,
         "name": "Adilenium Oversized",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "88",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997183/VN000Q39EN9-HERO/After-Dark-Retro-Pullover-Hoodie.jpg"
@@ -79,6 +82,7 @@
     {
         "id": 12,
         "name": "Stella con cappuccio",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "119",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278461/VN000XR62N1-HERO/V2K-OS-Pullover-Hoodie.jpg"
@@ -87,6 +91,7 @@
     {
         "id": 13,
         "name": "Evolve Pullover",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "69.90",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278401/VN000RG2BLK-HERO/Evolve-Pullover-Hoodie.jpg"
@@ -94,6 +99,7 @@
     {
         "id": 14,
         "name": "Own The Run 3",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "86",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278452/VN000WBPBLK-HERO/Tour-Os-Zip-Pullover-Hoodie.jpg"
@@ -101,6 +107,7 @@
     {
         "id": 15,
         "name": "T-shirt classic",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "12.99",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761149052/VN000TR3EMQ-ALT2/Act-Of-Disagreement-Oval-Logo-TShirt.jpg"
@@ -108,6 +115,7 @@
     {
         "id": 16,
         "name": "T-shirt Trefoil Essentials",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "28",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761149106/VN000TR2EMQ-ALT1/Act-Of-Disagreement-Brushed-Logo-TShirt.jpg"
@@ -115,6 +123,7 @@
     {
         "id": 17,
         "name": "T-shirt Monogram Graphic",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "34.50",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820787/VN000U11WHT-ALT3/Vans-2Pack-TShirt.jpg"
@@ -123,6 +132,7 @@
     {
         "id": 18,
         "name": "Trainig HIIT WORKOUT",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "50",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820367/VN000P1P12Q-ALT4/Left-Chest-Loose-Fit-Short-Sleeve-TShirt.jpg"
@@ -130,6 +140,7 @@
     {
         "id": 19,
         "name": "T-shirt ZNE",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "40",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267733/VN000PDREMS-ALT2/Star-Checker-TShirt.jpg"
@@ -138,6 +149,7 @@
     {
         "id": 20,
         "name": "Firebird classic",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "60",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278356/VN000Q07BLK-HERO/Kids-Scribbled-Past-Fleece-Pants.jpg"
@@ -145,6 +157,7 @@
     {
         "id": 21,
         "name": "Franch Terry",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "50.40",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820480/VN000PJ01OD-ALT2/Premium-Double-Knee-Carpenter-Trousers.jpg"
@@ -152,6 +165,7 @@
     {
         "id": 22,
         "name": "Techfit Training ",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "32",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1764254612/VN0010DBBLK-HERO/OTW-x-Motherlan-Sweatpants.jpg"
@@ -159,6 +173,7 @@
     {
         "id": 23,
         "name": "Ultimate 365",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "365",
         "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756143257/VN000PMDEMW-ALT3/HiCountry-Snow-Trousers.jpg"
@@ -166,6 +181,7 @@
     {
         "id": 24,
         "name": "Regular Fleece",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "22",
         "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756143041/VN0008N6EMU-ALT4/Service-Cargo-Loose-Tapered-Trousers.jpg"
@@ -174,6 +190,7 @@
     {
         "id": 25,
         "name": "Tiro 24",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "45",
         "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267771/VN000PH6IYR-ALT2/Check5-Denim-Trousers.jpg"
@@ -181,6 +198,7 @@
     {
         "id": 26,
         "name": "Giacca training EXPERIOR",
+        "macroCategory": "Vestiti",
         "category": "Giacche",
         "price": "100",
         "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761149099/VN000RPNH9H-ALT6/Act-Of-Disagreement-Abrasion-Coach-Jacket.jpg"
@@ -188,6 +206,7 @@
     {
         "id": 27,
         "name": "GameDay Full-Zip",
+        "macroCategory": "Vestiti",
         "category": "Giacche",
         "price": "80",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820369/VN000P7AEN6-ALT2/Mcavoy-Lined-Station-Jacket.jpg"
@@ -195,6 +214,7 @@
     {
         "id": 28,
         "name": "Insulated Hybrid",
+        "macroCategory": "Vestiti",
         "category": "Giacche",
         "price": "135",
         "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1760692163/VN000NDN4QU-HERO/Wren-Colourblock-FullZip-Jacket.jpg"
@@ -202,6 +222,7 @@
     {
         "id": 29,
         "name": "Myshelter rain",
+        "macroCategory": "Vestiti",
         "category": "Giacche",
         "price": "250",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1760692163/VN000NDNDJR-HERO/Wren-Colourblock-Pile-Fleece-Jacket.jpg"
@@ -210,6 +231,7 @@
     {
         "id": 30,
         "name": "Adidas SST suit ",
+        "macroCategory": "Vestiti",
         "category": "Maglie girocollo",
         "price": "55",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997017/VN000P8CJDU-HERO/2Tone-Crew-Sweater.jpg"
@@ -217,6 +239,7 @@
     {
         "id": 31,
         "name": "Of Sport",
+        "macroCategory": "Vestiti",
         "category": "Maglie girocollo",
         "price": "38",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1758031666/VN000RG0EMS-HERO/Mirror-V-Loose-Sweater.jpg"
@@ -224,6 +247,7 @@
     {
         "id": 32,
         "name": "Entrada 22",
+        "macroCategory": "Vestiti",
         "category": "Maglie girocollo",
         "price": "35",
         "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1761820443/VN000PA6BRD-ALT2/Scripted-Vans-Crew-Sweatshirt.jpg"
@@ -231,6 +255,7 @@
     {
         "id": 33,
         "name": "Woman Real Madrid",
+        "macroCategory": "Vestiti",
         "category": "Maglie girocollo",
         "price": "96",
         "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267847/VN000Q33EMF-ALT2/Got-Your-Back-Crew-Sweatshirt.jpg"
@@ -238,6 +263,7 @@
     {
         "id": 34,
         "name": "Woman Juventus",
+        "macroCategory": "Vestiti",
         "category": "Maglie girocollo",
         "price": "96",
         "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756143402/VN000XC1BLK-ALT2/Leopard-Oval-Crew-Sweatshirt.jpg"

@@ -2,210 +2,297 @@
    {
         "id":1,
         "name": "Scarpe Classic Slip-On KPop Demon Hunters",
+        "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "68.00",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996783/VN000EYEBWW-HERO/Checkerboard-Classic-SlipOn-Shoes.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996783/VN000EYEBWW-HERO/Checkerboard-Classic-SlipOn-Shoes.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+    
         
     },
     {
         "id": 2,
         "name": "Scarpe Old Skool",
+        "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "68.50",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996660/VN000E8WG58-HERO/Old-Skool-Shoes.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996660/VN000E8WG58-HERO/Old-Skool-Shoes.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 3,
         "name": "Scarpe Classic Slip-On Platform",
+        "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "63.00",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996682/VN000EA9BA2-HERO/Classic-SlipOn-Platform-Shoes.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996682/VN000EA9BA2-HERO/Classic-SlipOn-Platform-Shoes.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 4,
         "name": "Scarpe Knu Skool",
+        "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "75.00",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996390/VN000D756I7-HERO/Knu-Skool-Shoes.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996390/VN000D756I7-HERO/Knu-Skool-Shoes.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 5,
         "name": "Scarpe Authentic",
+        "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "64.00",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996401/VN000D7YYY6-HERO/Authentic-Shoes.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996401/VN000D7YYY6-HERO/Authentic-Shoes.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 6,
         "name": "Scarpe Hylane",
+        "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price":"52.50",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996160/VN000D1JY23-HERO/Hylane-Shoes.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996160/VN000D1JY23-HERO/Hylane-Shoes.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 7,
         "name": "Scarpe Classic Slip-On Stackform",
+        "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "71.25",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996659/VN000E8CGMX-HERO/Classic-SlipOn-Stackform-Shoes.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996659/VN000E8CGMX-HERO/Classic-SlipOn-Stackform-Shoes.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 8,
         "name": "Scarpe Premium Authentic 44",
+        "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "80.75",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751995976/VN000CQA2BO-HERO/Premium-Authentic-44-Shoes.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751995976/VN000CQA2BO-HERO/Premium-Authentic-44-Shoes.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 9,
         "name": "Adicolor 3",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "56.00",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997446/VN000XC1BLK-HERO/Leopard-Oval-Crew-Sweatshirt.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997446/VN000XC1BLK-HERO/Leopard-Oval-Crew-Sweatshirt.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 10,
         "name": "Hero Full-zip ",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "100",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278328/VN000PX2EMP-HERO/Kids-Rippled-Zip-Hoodie.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278328/VN000PX2EMP-HERO/Kids-Rippled-Zip-Hoodie.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 11,
         "name": "Adilenium Oversized",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "88",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997183/VN000Q39EN9-HERO/After-Dark-Retro-Pullover-Hoodie.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997183/VN000Q39EN9-HERO/After-Dark-Retro-Pullover-Hoodie.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 12,
         "name": "Stella con cappuccio",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "119",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278461/VN000XR62N1-HERO/V2K-OS-Pullover-Hoodie.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278461/VN000XR62N1-HERO/V2K-OS-Pullover-Hoodie.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
    
     {
         "id": 13,
         "name": "Evolve Pullover",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "69.90",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278401/VN000RG2BLK-HERO/Evolve-Pullover-Hoodie.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278401/VN000RG2BLK-HERO/Evolve-Pullover-Hoodie.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 14,
         "name": "Own The Run 3",
+        "macroCategory": "Vestiti",
         "category": "Felpe",
         "price": "86",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278452/VN000WBPBLK-HERO/Tour-Os-Zip-Pullover-Hoodie.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278452/VN000WBPBLK-HERO/Tour-Os-Zip-Pullover-Hoodie.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 15,
         "name": "Maglietta Centre Chest Logo Ringer",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "24.50",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278414/VN000TXS4QU-HERO/Centre-Chest-Logo-Ringer-TShirt.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756278414/VN000TXS4QU-HERO/Centre-Chest-Logo-Ringer-TShirt.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 16,
         "name": "Maglietta Afterburn Crop",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "24.50",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267808/VN000PR3EN9-ALT2/Afterburn-Crop-TShirt.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267808/VN000PR3EN9-ALT2/Afterburn-Crop-TShirt.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 17,
         "name": "Maglietta Essential",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "28.00",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267928/VN000RANZRY-ALT2/Essential-TShirt.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267928/VN000RANZRY-ALT2/Essential-TShirt.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
 
     },
     {
         "id": 18,
         "name": "Maglietta Afterburn Crop",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "28.00",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267808/VN000PR3BLK-ALT2/Afterburn-Crop-TShirt.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267808/VN000PR3BLK-ALT2/Afterburn-Crop-TShirt.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 19,
         "name": "T-shirt ZNE",
+        "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "19.50",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267647/VN000P5QBLK-ALT6/Salton-Crop-TShirt.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267647/VN000P5QBLK-ALT6/Salton-Crop-TShirt.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
 
     {
         "id": 20,
         "name": "Leggings Mte Logo Crosspath",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "32.50",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997073/VN000PK6Y7U-HERO/Mte-Logo-Crosspath-Legging.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997073/VN000PK6Y7U-HERO/Mte-Logo-Crosspath-Legging.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 21,
         "name": "Franch Terry",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "52.50",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267900/VN000R4STTJ-ALT2/Check5-Baggy-Denim-Trousers.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267900/VN000R4STTJ-ALT2/Check5-Baggy-Denim-Trousers.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 22,
         "name": "MTE Treck Guide ",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "75.00",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267532/VN000M6XBLK-ALT2/MTE-Trek-Guide-Trousers.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267532/VN000M6XBLK-ALT2/MTE-Trek-Guide-Trousers.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 23,
         "name": "Sirelle Puddle",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "56.25",
-        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267544/VN000MB5Y7J-ALT2/Sirelle-5-Pocket-Puddle-Trousers.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267544/VN000MB5Y7J-ALT2/Sirelle-5-Pocket-Puddle-Trousers.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 24,
         "name": "Pantaloni Annabelle",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "45.00",
-        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267861/VN000Q64TTJ-ALT2/Annabelle-Trousers.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1753267861/VN000Q64TTJ-ALT2/Annabelle-Trousers.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
 
     },
     {
         "id": 25,
         "name": "Pantaloni ricamati Sirelle",
+        "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "60.00",
-        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756143395/VN000RM1AHU-ALT2/Sirelle-Embroidered-Trousers.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1756143395/VN000RM1AHU-ALT2/Sirelle-Embroidered-Trousers.jpg",
+        "size": ["XS", "S", "M", "L", "XL"]
+
     },
     {
         "id": 26,
         "name": "Calzettoni Plaimor",
+        "macroCategory": "Vestiti",
         "category": "Calzettoni",
         "price": "18.00",
-        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997301/VN000QBM7UG-HERO/Plaimor-Crew-Socks-1-pair.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997301/VN000QBM7UG-HERO/Plaimor-Crew-Socks-1-pair.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 27,
         "name": "Calzettoni Classic Script",
+        "macroCategory": "Vestiti",
         "category": "Calzettoni",
         "price": "12",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997295/VN000QBJEN7-HERO/Classic-Script-Half-Crew-Socks-1-pair.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997295/VN000QBJEN7-HERO/Classic-Script-Half-Crew-Socks-1-pair.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 28,
         "name": "Calzettoni Checkerboard",
+        "macroCategory": "Vestiti",
         "category": "Calzettoni",
         "price": "13.60",
-        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997287/VN000QBDEMJ-HERO/Checkerboard-Crew-Socks-1-Pair.jpg"
+        "image" : "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997287/VN000QBDEMJ-HERO/Checkerboard-Crew-Socks-1-Pair.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
     {
         "id": 29,
         "name": "Calzettoni Classic Check",
+        "macroCategory": "Vestiti",
         "category": "Calzettoni",
         "price": "17.00",
-        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997308/VN000QBUWHT-HERO/Classic-Check-Crew-Socks-3-pairs.jpg"
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997308/VN000QBUWHT-HERO/Classic-Check-Crew-Socks-3-pairs.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+
     },
    
     {

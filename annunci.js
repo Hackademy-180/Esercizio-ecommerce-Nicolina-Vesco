@@ -10,7 +10,7 @@ window.addEventListener("scroll",() => {
     let scrolled= window.scrollY;
     if(scrolled > 0){
         nav.classList.add("nav-custom2");
-        imgLogo.src= "http://127.0.0.1:5500/media/logored.png";
+        imgLogo.src= "http://127.0.0.1:5500/media/logoalternativo.png";
 
         navLink.forEach((link)=> {
             link.style.color = "rgb(254,254,254)"
@@ -33,7 +33,7 @@ window.addEventListener("scroll",() => {
         }) 
     }else{
         nav.classList.remove("nav-custom2");
-        imgLogo.src= "http://127.0.0.1:5500/media/logo.png";
+        imgLogo.src= "http://127.0.0.1:5500/media/logoalternativo.png";
 
         navLink.forEach((link)=>{
             link.style.color= "rgb(10,10,10)"
