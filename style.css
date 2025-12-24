@@ -357,10 +357,38 @@ button {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 } 
 
+#collapsePrezzo{
+  margin-top: -40px;
+  margin-left: 4px;
+}
+
+#collapseCategorie{
+  margin-top: -40px;
+  margin-left: 4px;
+}
+
+#collapseParola{
+  margin-top: -40px;
+  margin-left: 4px;
+}
+
 /* filtro taglie */
 
 .btn-size{
   width:10px;
   height:30px;
 
+}
+#collapseTaglie{
+  margin-top: -40px;
+  margin-left: 17px;
+}
+
+/* Reparto uomo */
+.row-men-section{
+  background: url("/media/headermensection.jpg");
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
