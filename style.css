@@ -392,3 +392,8 @@ button {
   background-position: center;
   background-size: cover;
 }
+.btn-men{
+  border: 1px solid #d3d3d3;
+  width:200px;
+  height:40px;
+}
