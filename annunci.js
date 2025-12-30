@@ -42,8 +42,8 @@ window.addEventListener("scroll",() => {
         })
         icon.forEach((icona)=>{
             icona.style.color="rgb(10,10,10)"
-            icona.addEventListener("mouseenter",()=> {link.style.color="rgb(10,10,10)"})
-            icona.addEventListener("mouseleave",()=> {link.style.color="rgb(10,10,10)"})
+            icona.addEventListener("mouseenter",()=> {icona.style.color="rgb(10,10,10)"})
+            icona.addEventListener("mouseleave",()=> {icona.style.color="rgb(10,10,10)"})
         })
     }
     
@@ -79,11 +79,12 @@ let filterBtn = document.querySelector("#filterBtn")
 
 });
     
-let categoryWrapper= document.querySelector("#categoryWrapper")
-let cardsJson= document.querySelector("#cardsJson")
-let priceInput=document.querySelector("#priceInput")
-let priceNumber=document.querySelector("#priceNumber")
-let wordInput =document.querySelector("#wordInput")
+let categoryWrapper = document.querySelector("#categoryWrapper")
+let cardsJson = document.querySelector("#cardsJson")
+let priceInput = document.querySelector("#priceInput")
+let priceNumber = document.querySelector("#priceNumber")
+let wordInput = document.querySelector("#wordInput")
+let searchBar = document.querySelector("#searchBar")
 
 
 
@@ -192,6 +193,18 @@ fetch("./annunci.json").then((response) => response.json()).then((data) => {
     
     showCards(filtered)
    }
+//    filtro parola sulla search bar
+   searchBar.addEventListener("input", ()=>{
+        filterSearchBar();
+   })
+   function filterSearchBar(){
+    let query=searchBar.value.toLowerCase();
+    let filtered=data.filter((annuncio)=>
+        annuncio.name?.toLowerCase().includes(query)||
+        annuncio.category?.toLowerCase().includes(query))
+    showCards(filtered);
+   }
+
 })
 
 

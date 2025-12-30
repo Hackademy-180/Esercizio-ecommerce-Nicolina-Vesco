@@ -54,6 +54,7 @@ let priceInput=document.querySelector("#priceInput");
 let wordInput=document.querySelector("#wordInput");
 let collapseTaglie=document.querySelector("collapseTaglie");
 let showCard=document.querySelector("#showCard");
+let searchBar=document.querySelector("#searchBar");
 
 fetch("/repartouomo/men.json").then((response)=>response.json()).then((info)=>{
     function setCategoryFilter(){
@@ -113,4 +114,51 @@ fetch("/repartouomo/men.json").then((response)=>response.json()).then((info)=>{
             filterByCategory();
         })
     })
+
+    function setPriceInput(){
+        let maxPrice=info[0].price;
+        priceInput.max=maxPrice;
+        priceInput.value=maxPrice;
+        priceNumber.innerHTML=maxPrice + " €";
+        let infoReverse= info.reverse();
+        let minPrice=infoReverse[0].price;
+        priceInput.min= Math.ceil(+minPrice);
+        minNumber.innerHTML=minPrice + " €";
+    }
+    setPriceInput();
+
+    priceInput.addEventListener("input", ()=> {
+        priceNumber.innerHTML = priceInput.value + " €";
+        minNumber.innerHTML= priceInput.value + " €";
+
+        filterByPrice();
+    })
+
+    function filterByPrice(){
+        let filtered = info.filter((annuncio)=> +annuncio.price <= +priceInput.value);
+        showCards(filtered);
+    }
+
+    wordInput.addEventListener("input", ()=>{
+        filterByWord();
+    })
+
+    function filterByWord(){
+        let filtered= info.filter((annuncio)=> 
+        annuncio.name.toLowerCase().includes(wordInput.value.toLowerCase()))
+        showCards(filtered);
+    }
+    // filtro parola sulla search bar
+    searchBar.addEventListener("input", ()=> {
+        filterSearchBar();
+    })
+    function filterSearchBar(){
+        let query=searchBar.value.toLowerCase();
+        // in questo caso il "?"" serve per far capire al programma che se non trova name passa oltre e senza "?" il codice non viene eseguito corettamente e non trova la richiesta fatta
+        let filtered=info.filter((annuncio)=>
+        annuncio.name?.toLowerCase().includes(query) ||
+        annuncio.category?.toLowerCase().includes(query) ||
+        annuncio.macroCategory?.toLowerCase().includes(query))
+        showCards(filtered);
+    }
 }) 

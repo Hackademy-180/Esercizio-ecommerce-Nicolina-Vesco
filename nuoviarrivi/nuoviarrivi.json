@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "name": "Scarpe Classic Slip-On KPop Demon",
+        "section":["woman", "men", "kid"],
+        "macroCategory": "Scarpe",
+        "category": "Scarpe",
+        "price": "68.00",
+        "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751996684/VN000EB4BRO-HERO/Sk8Hi-Insulated-Shoes.jpg",
+        "size": ["36", "37", "38", "39", "40"]
+    
+        
+    }
+]

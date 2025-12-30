@@ -58,6 +58,7 @@ let priceInput = document.querySelector("#priceInput");
 let wordInput = document.querySelector("#wordInput");
 let collapseTaglie = document.querySelector("#collapseTaglie");
 let showCard = document.querySelector("#showCard");
+let searchBar = document.querySelector("#searchBar");
 
 
 fetch("./woman.json").then((response) => response.json()).then((info) => {
@@ -152,6 +153,20 @@ fetch("./woman.json").then((response) => response.json()).then((info) => {
     function filterByWord() {
         let filtered = info.filter((annuncio) =>
             annuncio.name.toLowerCase().includes(wordInput.value.toLowerCase()))
+        showCards(filtered);
+    }
+//   filtro parola sulla search bar
+    searchBar.addEventListener("input", () => {
+        filterSearchBar();
+    })
+
+    function filterSearchBar(){
+        let query=searchBar.value.toLowerCase();
+        let filtered=info.filter((annuncio)=>
+        // in questo caso il "?"" serve per far capire al programma che se non trova name passa oltre e senza "?" il codice non viene eseguito corettamente e non trova la richiesta fatta
+        annuncio.name?.toLowerCase().includes(query)||
+        annuncio.category?.toLowerCase().includes(query)||
+        annuncio.macroCategory?.toLowerCase().includes(query));
         showCards(filtered);
     }
 
