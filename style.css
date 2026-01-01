@@ -61,6 +61,22 @@ p{
     margin-top: 80px;
 }
 
+@media screen and (min-width:768px) and (max-width:1150px) {
+
+}
+
+@media  screen and (max-width:768px){
+  .logo{
+    width:70px;
+  }    
+  #searchBar{
+    display: none;
+  }
+  h1{
+    font-size:50px;
+  }
+}
+
 /* From Uiverse.io by Cornerstone-04 */ 
 .box {
   width: 140px;
@@ -305,6 +321,9 @@ button {
 .footer-list, .list-button{
   list-style-type: none;
 }
+
+
+
 
 
 /* Pagina shop */

@@ -142,7 +142,7 @@ let productCards = [
 
 productCards.forEach((product)=>{
     let div = document.createElement("div");
-    div.classList.add ("col-12","col-md-2", "p-0");
+    div.classList.add ("col-6","col-md-2", "p-0");
     div.innerHTML=`
             <div class="card cardsection1">
             <img src="${product.image}" class="card-img-top card1section" alt="...">
@@ -188,7 +188,7 @@ let productCarousel= [
 
 productCarousel.forEach((element) => {
     let div=document.createElement("div");
-    div.classList.add ("col-12", "col-md-4", "p-0");
+    div.classList.add ("col-4", "col-md-4", "p-0");
     div.innerHTML= `
          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
