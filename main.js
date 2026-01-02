@@ -142,10 +142,10 @@ let productCards = [
 
 productCards.forEach((product)=>{
     let div = document.createElement("div");
-    div.classList.add ("col-6","col-md-2", "p-0");
+    div.classList.add ("col-6","col-md-2", "p-0", "d-flex", "justify-content-center", "card-query");
     div.innerHTML=`
-            <div class="card cardsection1">
-            <img src="${product.image}" class="card-img-top card1section" alt="...">
+            <div class="card cardsection1 d-flex justify-content-center align-items-center">
+            <img src="${product.image}" class="card-img-top" alt="...">
             <a href="${product.link}" class="text-card">${product.text}</a>
             </div>
 
@@ -192,7 +192,7 @@ productCarousel.forEach((element) => {
     div.innerHTML= `
          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active h-100" data-bs-interval="3000" >
+                            <div class="carousel-item active" data-bs-interval="3000" >
                                 <img src="${element.image[0]}" class="d-block img-carousel " alt="...">
                                 <div class="carousel-caption d-none d-md-flex flex-column align-items-start">
                                     <h2 class="fs-1 text-black bg-white">${element.title}</h2>
@@ -219,7 +219,6 @@ productCarousel.forEach((element) => {
                             data-bs-slide="next">
                             <span class="visually-hidden">Next</span>
                         </button>
-                    </div>
                 </div>
     ` 
 carouselWrapper.appendChild(div);

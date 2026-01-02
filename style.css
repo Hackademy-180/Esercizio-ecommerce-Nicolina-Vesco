@@ -66,15 +66,34 @@ p{
 }
 
 @media  screen and (max-width:768px){
+  * {
+  outline: 1px solid red;
+}
+.nav-custom{
+  width:100%;
+}
+  
   .logo{
     width:70px;
   }    
   #searchBar{
     display: none;
   }
+  .row-custom{
+    justify-content: center;
+  }
   h1{
     font-size:50px;
   }
+.card-query{
+  width: 50%;
+  height: 50%;
+}
+.card-img-top {
+  width: 140px;
+  height:140px;   
+}
+
 }
 
 /* From Uiverse.io by Cornerstone-04 */ 
