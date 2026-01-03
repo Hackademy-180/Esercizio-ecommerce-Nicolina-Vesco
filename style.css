@@ -93,7 +93,24 @@ p{
   width: 140px;
   height:140px;   
 }
+.second-section{
+  margin-top: 50px;
+}
 
+.row-third-section{
+margin-top: 100px;
+
+}
+.btn-custom{
+  margin-top:100px;
+}
+.more-info{
+  display: none;
+}
+
+.footer-custom{
+  margin-top:400px;
+}
 }
 
 /* From Uiverse.io by Cornerstone-04 */ 
@@ -290,7 +307,7 @@ button {
 /* Third section */
 
 .row-third-section{
-  height: 50vw;
+  height: 70vw;
 }
 
 .card-third-section{
@@ -302,7 +319,7 @@ button {
 }
 
 .container-card{
-  width: 20vw;
+  width: 23vw;
 }
 .card-third-section:hover{
   border:1px solid black;
