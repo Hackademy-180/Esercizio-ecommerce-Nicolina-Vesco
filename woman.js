@@ -88,10 +88,10 @@ fetch("./woman.json").then((response) => response.json()).then((info) => {
         showCard.innerHTML = "";
         array.forEach((filtro) => {
             let div = document.createElement("div");
-            div.classList.add("col-12", "col-md-3");
+            div.classList.add("col-6", "col-md-3");
             div.innerHTML = `<div class="card my-2 mb-5 mt-4 card-woman">
-                                <img src=${filtro.image} class="card-img-top" alt="...">
-                                <div class="card-body">
+                                <img src=${filtro.image} class="card-img-woman" alt="...">
+                                <div class="card-body card-woman">
                                     <h5 class="card-title">${filtro.name}</h5>
                                     <p class="card-text">${filtro.price} €</p>
                                     <a href="#" class="btn btn-secondary">Acquista<i class="bi bi-cart-plus"></i></a>

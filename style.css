@@ -42,10 +42,6 @@ p{
 }
 
 
-
-
-
-
 /* Lista destra navbar*/
 .search-bar{
     height: 30px;
@@ -61,57 +57,6 @@ p{
     margin-top: 80px;
 }
 
-@media screen and (min-width:768px) and (max-width:1150px) {
-
-}
-
-@media  screen and (max-width:768px){
-  * {
-  outline: 1px solid red;
-}
-.nav-custom{
-  width:100%;
-}
-  
-  .logo{
-    width:70px;
-  }    
-  #searchBar{
-    display: none;
-  }
-  .row-custom{
-    justify-content: center;
-  }
-  h1{
-    font-size:50px;
-  }
-.card-query{
-  width: 50%;
-  height: 50%;
-}
-.card-img-top {
-  width: 140px;
-  height:140px;   
-}
-.second-section{
-  margin-top: 50px;
-}
-
-.row-third-section{
-margin-top: 100px;
-
-}
-.btn-custom{
-  margin-top:100px;
-}
-.more-info{
-  display: none;
-}
-
-.footer-custom{
-  margin-top:400px;
-}
-}
 
 /* From Uiverse.io by Cornerstone-04 */ 
 .box {
@@ -190,7 +135,7 @@ button {
 }
 .cardsection1{
     width:250px;
-    height: 100px;
+    /* height: 100px; Un contenitore non può adattarsi all’altezza del contenuto se ha height fissa. */
     padding: 0px;
 }
 .cardsection1:hover{
@@ -350,17 +295,14 @@ button {
 
 /* Fine della pagina */
 .footer-custom{
-  height: 55vh;
+  min-height: 100%;
+  width:100%;
   background: var(--grey);
 }
 
 .footer-list, .list-button{
   list-style-type: none;
 }
-
-
-
-
 
 /* Pagina shop */
 
@@ -376,6 +318,7 @@ button {
   width: 4%;
 }
 
+
 /* Pagina reparto donna */
 .row-header{
   height: 85vh;
@@ -386,11 +329,12 @@ button {
 }
 
 .titleWomanSection{
-  width: 13%;
-  height: 50px;
+  min-width: 20%;  /*sul responsive non riuscivo a far stare il titolo e paragrafo in orizzontale quindi sistemato dando min-width su schermi grandi cosi dando la width su media query ho sistemato lasciando col-12 invece su schermi grandi occupava tutto al 100% quindi ho sistemato mettendo col-md-3*/
+  padding:10px;
 }
 .titleWomanSection1{
-  width:20%;
+  min-width: 20%;
+  padding:5px;
 }
 
 /* First section */
@@ -456,4 +400,128 @@ button {
   border: 1px solid #d3d3d3;
   width:200px;
   height:40px;
+}
+
+.titleMenSection{
+  min-width: 20%;  /*sul responsive non riuscivo a far stare il titolo e paragrafo in orizzontale quindi sistemato dando min-width su schermi grandi cosi dando la width su media query ho sistemato lasciando col-12 invece su schermi grandi occupava tutto al 100% quindi ho sistemato mettendo col-md-3*/
+  padding:10px;
+}
+.titleMenSection1{
+  min-width: 20%;
+  padding:5px;
+}
+
+
+
+/* Media query */
+
+@media screen and (min-width:768px) and (max-width:1150px) {
+/* * {
+  outline: 1px solid red;
+} */
+.logo{
+  width:80px;
+}
+.card-query{
+  width:50%;
+  height: 70%;
+}
+.card-img-top{
+  width:200px;
+  height: 200px;
+}
+.btn-men, .btn-woman-section{
+  width:150px;
+  height:40px;
+}
+
+.second-section{
+  margin-top: 350px;
+}
+
+.third-section{
+  margin-top: 100px;
+}
+.footer-custom{
+  margin-top: 100px;
+}
+}
+
+@media  screen and (max-width:768px){
+  * {
+  outline: 1px solid red;
+}
+  /* Navbar */
+
+.nav-custom{
+  width:100%;
+}  
+  .logo{
+    width:70px;
+  }    
+  #searchBar{
+    display: none;
+  }
+  /* Header */
+  .row-custom{
+    justify-content: center;
+  }
+  h1{
+    font-size:50px;
+  }
+  /* First section */
+.card-query{
+  width: 50%;
+  height: 50%;
+}
+.card-img-top {
+  width: 140px;
+  height:140px;   
+}
+/* Second section */
+.second-section{
+  margin-top: 50px;
+}
+
+/* Third sectiom */
+.row-third-section{
+margin-top: 100px;
+
+}
+.third-section{
+  margin-top:200px;
+}
+#card-3-section{
+  display:none;
+}
+.btn-custom{
+  margin-top:100px;
+}
+.more-info{
+  display: none;
+}
+/* Fine pagina */
+.footer-custom{
+  margin-top:200px;
+  /* text-align: center; */
+}
+
+/* Reparto donna e uomo*/
+.titleWomanSection, .titleMenSection{
+  width: 55%;
+  font-size:30px;
+}
+.titleWomanSection1, .titleMenSection1{
+  width:50%;
+}
+.filter-button{
+  flex-direction: column;
+  align-items: center;
+}
+.card-woman, .card-men, .card-shop{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
 }

@@ -1,7 +1,7 @@
 [
    {
         "id":1,
-        "name": "Scarpe Classic Slip-On KPop Demon",
+        "name": "Scarpe Classic Slip ",
         "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "68.00",
@@ -22,7 +22,7 @@
     },
     {
         "id": 3,
-        "name": "Scarpe Classic Slip-On Platform",
+        "name": "Scarpe Classic Slip-On ",
         "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "63.00",
@@ -62,7 +62,7 @@
     },
     {
         "id": 7,
-        "name": "Scarpe Classic Slip-On Stackform",
+        "name": "Scarpe Classic Slip ",
         "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "71.25",
@@ -72,7 +72,7 @@
     },
     {
         "id": 8,
-        "name": "Scarpe Premium Authentic 44",
+        "name": "Scarpe Premium Authentic",
         "macroCategory": "Scarpe",
         "category": "Scarpe",
         "price": "80.75",
@@ -143,7 +143,7 @@
     },
     {
         "id": 15,
-        "name": "Maglietta Centre Chest Logo Ringer",
+        "name": "Maglietta Centre",
         "macroCategory": "Vestiti",
         "category": "Maglie",
         "price": "24.50",
@@ -195,7 +195,7 @@
 
     {
         "id": 20,
-        "name": "Leggings Mte Logo Crosspath",
+        "name": "Leggings Crosspath",
         "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "32.50",
@@ -246,7 +246,7 @@
     },
     {
         "id": 25,
-        "name": "Pantaloni ricamati Sirelle",
+        "name": "Pantaloni Sirelle",
         "macroCategory": "Vestiti",
         "category": "Pantaloni",
         "price": "60.00",
@@ -297,7 +297,7 @@
    
     {
         "id": 30,
-        "name": "Borsa a tracolla Gotsman Messenger",
+        "name": "Borsa Gotsman",
         "category": "Borse",
         "price": "33.00",
         "image": "https://assets.vans.eu/images/t_img/c_fill,g_center,f_auto,h_815,e_unsharp_mask:100,w_652/dpr_2.0/v1751997217/VN000Q9DBLK-HERO/Gotsman-Messenger-Crossbody-Bag.jpg"

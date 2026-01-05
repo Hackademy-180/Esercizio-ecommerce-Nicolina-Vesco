@@ -122,7 +122,7 @@ fetch("./annunci.json").then((response) => response.json()).then((data) => {
             div.innerHTML =`
             <div class="card my-2 mb-5 card-shop">
             <img src=${annuncio.image} class="card-img-top" alt="...">
-            <div class="card-body">
+            <div class="card-body card-shop">
             <h5 class="card-title">${annuncio.name}</h5>
             <p class="card-text">${annuncio.price} €</p>
             <a href="#" class="btn btn-secondary">Acquista<i class="bi bi-cart-plus"></i></a>
